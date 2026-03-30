@@ -4,9 +4,10 @@
 To build and configure a Windows Active Directory environment for centralized user management and security policy enforcement.
 
 ##  Tools Used
-- Windows Server 2019
-- Windows 10 Client
+- Windows Server 2022
+- Windows 11 Clients
 - VirtualBox
+- Mobaxterm
 
 ##  Network Configuration
 - Network: 192.168.56.0/24
@@ -15,7 +16,7 @@ To build and configure a Windows Active Directory environment for centralized us
 - Client 2 IP: 192.168.56.21
 
 ##  Lab Setup
-- 1 Domain Controller
+- 1 Domain Controllers
 - 2 Client Machines
 - Internal network (isolated lab)
 
