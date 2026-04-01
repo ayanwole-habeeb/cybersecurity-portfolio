@@ -8,19 +8,28 @@ To build and configure a Windows Active Directory environment for centralized us
 - Windows 11 Clients
 - VirtualBox
 - Mobaxterm
+- SmartBox Router
 
-##  Network Configuration
-- Network: 192.168.56.0/24
-- Domain Controller IP: 192.168.56.10
-- Client 1 IP: 192.168.56.20
-- Client 2 IP: 192.168.56.21
+  ##  Lab Setup
+  Two Domain Controllers
+- Five Client Machines
+- Five other Servers
+  ### VirtualBox Manager
+<img width="1365" height="767" alt="Screenshot 2026-04-01 135527" src="https://github.com/user-attachments/assets/6e7aa804-e2f7-432e-b1f2-75a5a1558f22" />
 
-##  Lab Setup
-- 1 Domain Controllers
-- 2 Client Machines
-- Internal network (isolated lab)
+  
+##  Configuration
+### 1. Network Configuration
+- Network: 192.168.1.0/24
+- subnetmask: 255.255.255.0
+- Choosen Router DHCP IP POOL : 192.168.1.20 - 192.168.1.20.43
+- Router IP :192.168.1.19
+- DNS / Defualt Gateway IP : 192.168.1.19
+  ### IP Addressing Scheme
+<img width="841" height="508" alt="Screenshot 2026-04-01 120313 - Copy" src="https://github.com/user-attachments/assets/94c9a281-aede-47cf-8d24-862bb0de45f1" />
 
-## Configuration Steps
+### Router Settings
+<img width="1155" height="689" alt="Screenshot 2026-04-01 121812" src="https://github.com/user-attachments/assets/e0a73f1b-f2d7-475c-9440-7c9375dea207" />
 
 ### 1. Installed Windows Server
 - Set static IP address
@@ -42,13 +51,10 @@ To build and configure a Windows Active Directory environment for centralized us
 - Enforced password policy
 - Account lockout settings
 
-## 📸Screenshots
+## Screenshots
 (Add your screenshots here later)
 
-## 🔍 Key Learnings
-- How Active Directory manages users centrally
-- Importance of DNS in domain environments
-- How Group Policy enforces security
+
 
 ##  Disclaimer
 This lab was conducted in a controlled virtual environment for educational purposes only.
