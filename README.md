@@ -15,7 +15,11 @@ Aspiring Cybersecurity Analyst with hands-on experience in:
 
 ##  Tools
 - Kali Linux
-- Nmap
+- MobaXterm
+- VirtualBox
+- OpenVPNConnect
+- IBM QRadar
+- Slack
 - Wireshark
 - Windows Server
 
