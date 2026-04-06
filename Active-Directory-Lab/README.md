@@ -38,33 +38,41 @@ All systems were renamed to follow a structured enterprise naming convention:
 - os01-ws-dc02 (Domain Controller 2)
 - abj01-ws-sv01 (Server 1)
 - abj01-ws-sv02 (Server 2)
+- abj01-ws-sv03 (Server 3)
+- abj01-ws-sv04 (Server 4)
+- abj01-ws-sv05 (Server 5)
 - abj01-wc-wk01 (Workstation 1)
 - abj01-wc-wk02 (Workstation 2)
+- abj01-wc-wk03 (Workstation 3)
+- abj01-wc-wk04 (Workstation 4)
 
 ### 3.Static IP Configuration
-Servers were assigned static IP addresses to ensure:
-- Network stability
-- Reliable DNS resolution
-- Proper Active Directory functionality
+To ensure stability and proper communication across the lab, all Windows Servers were configured with static IP addresses.
+- abj01-ws-dc01 (Domain Controller 1) : 172.30.55.20
+- os01-ws-dc02 (Domain Controller 2) : 172.30.55.57
+- abj01-ws-sv01 (Server 1) : 172.30.55.18
+- abj01-ws-sv02 (Server 2) : 172.30.55.12
+- abj01-ws-sv03 (Server 3) : 172.30.55.89
+- abj01-ws-sv04 (Server 4) : 172.30.55.34
+- abj01-ws-sv05 (Server 5) : 172.30.55.42
+
+#### 4. MobaXterm (Centralized Access Tool)
+- Used MobaXterm to manage both RDP and SSH sessions
+- Created saved sessions for quick access to all machines
+
+
 
 ### Screenshots
-### Domain Controller 1
-<img width="1365" height="767" alt="Screenshot 2026-03-31 102325" src="https://github.com/user-attachments/assets/f4593ba3-616b-45e8-9979-1aec350b9f5a" />
+### Remote connection using MobaXterm to abj01-ws-dc01 (Domain Controller 1) : Static ip (172.30.55.20)
+<img width="1365" height="767" alt="Screenshot 2026-04-06 050150" src="https://github.com/user-attachments/assets/11700a8c-31b8-4f95-b530-d1d416ca6059" />
 
-### Domain Controller 2
-<img width="1365" height="767" alt="Screenshot 2026-03-31 102651" src="https://github.com/user-attachments/assets/fdcf4e92-6db9-4477-a37c-8cf1ac8ab327" />
+### abj01-ws-sv05 (Server 5) : Static ip ( 172.30.55.42 )
+<img width="1355" height="767" alt="Screenshot 2026-04-06 045812" src="https://github.com/user-attachments/assets/b206ba4a-517e-4515-9df8-370ee2b18fa7" />
 
-### Server 1
-<img width="1365" height="767" alt="Screenshot 2026-03-31 103103" src="https://github.com/user-attachments/assets/f37ccc68-3b01-44b5-be69-79e27fa180ba" />
+### abj01-ws-sv02 (Server 2) : Static ip ( 172.30.55.12 )
+<img width="1365" height="767" alt="Screenshot 2026-04-06 040115" src="https://github.com/user-attachments/assets/0e0cbbd7-c0fe-43ce-ab7f-90b2fe3a08d2" />
 
-### Server 2
-<img width="1358" height="767" alt="Screenshot 2026-03-31 103348" src="https://github.com/user-attachments/assets/eacf1780-0332-4fa1-83f8-a72f6b683966" />
 
-### workstation 1
-<img width="1365" height="767" alt="Screenshot 2026-03-31 161400" src="https://github.com/user-attachments/assets/22a8dedd-28e1-4fd4-b87d-7a0645fb39e2" />
-
-### workstation 5
-<img width="1365" height="767" alt="Screenshot 2026-03-31 212031" src="https://github.com/user-attachments/assets/48cf97e2-cdaf-4ceb-95ce-f1f428b42a76" />
 
 
 
