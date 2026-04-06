@@ -10,10 +10,22 @@ To build and configure a Windows Active Directory environment for centralized us
 - Mobaxterm
 - SmartBox Router
 
+##  Network Architecture
+
+This lab uses a dual-network design:
+
+- External Network (DHCP) for internet and remote access
+- Internal Network (Host-Only) for Active Directory and server communication
+
+Each server is configured with:
+- Static IP (internal network)
+- DHCP IP (external network)
+
   ##  Lab Setup
 - Two Domain Controllers
 - Five Client Machines
 - Five other Servers
+  
   ### VirtualBox Manager
 <img width="1365" height="767" alt="Screenshot 2026-04-01 135527" src="https://github.com/user-attachments/assets/6e7aa804-e2f7-432e-b1f2-75a5a1558f22" />
 
