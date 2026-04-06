@@ -11,7 +11,7 @@ To build and configure a Windows Active Directory environment for centralized us
 - SmartBox Router
 
   ##  Lab Setup
--Two Domain Controllers
+- Two Domain Controllers
 - Five Client Machines
 - Five other Servers
   ### VirtualBox Manager
