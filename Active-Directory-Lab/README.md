@@ -84,8 +84,23 @@ To ensure stability and proper communication across the lab, all Windows Servers
 ### abj01-ws-sv02 (Server 2) : Static ip ( 172.30.55.12 )
 <img width="1365" height="767" alt="Screenshot 2026-04-06 040115" src="https://github.com/user-attachments/assets/0e0cbbd7-c0fe-43ce-ab7f-90b2fe3a08d2" />
 
+##  Active Directory Deployment
 
+- Installed Active Directory Domain Services 
+- Promoted abj01-ws-dc01 to Domain Controller
+- Configured new forest: beecipher.local
+- Configured DNS Forward and Reverse Lookup Zones
+- Verified DNS resolution using nslookup
 
+### Screenshots
+### Active Directory Domain Services Installed
+<img width="1365" height="767" alt="Screenshot 2026-04-08 135710" src="https://github.com/user-attachments/assets/492d5a75-442d-4625-9cdc-3afbe1a4a3ef" />
+
+### DNS Forward and Reverse Lookup Zones Configured
+<img width="1365" height="767" alt="Screenshot 2026-04-08 140603" src="https://github.com/user-attachments/assets/79a2f9b4-37bf-4060-b013-cd5f2832e7a5" />
+
+### DNS Confirmation, using nslookup 
+<img width="1365" height="767" alt="Screenshot 2026-04-08 132425" src="https://github.com/user-attachments/assets/4a49f804-67f5-4280-bab2-7bff473dc1ea" />
 
 
 
