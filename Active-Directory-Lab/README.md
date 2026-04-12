@@ -149,6 +149,9 @@ Created different types of Active Directory accounts:
 <img width="1365" height="767" alt="Screenshot 2026-04-11 154825" src="https://github.com/user-attachments/assets/5b4eab9e-80cd-412a-9158-69758ff5bb5f" />
 
 ###  Domain Login
+**abj01-ws-sv02**
+<img width="1365" height="767" alt="Screenshot 2026-04-12 051317" src="https://github.com/user-attachments/assets/608d35e8-de97-46fb-b029-0206c5d2faf9" />
+
 **abj01-wc-wk03(Workstation 3)**
 <img width="1361" height="767" alt="Screenshot 2026-04-11 160518" src="https://github.com/user-attachments/assets/516f2961-badb-4ecc-a16f-0d9c6039a7cf" />
 
