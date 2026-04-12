@@ -149,7 +149,7 @@ Created different types of Active Directory accounts:
 <img width="1365" height="767" alt="Screenshot 2026-04-11 154825" src="https://github.com/user-attachments/assets/5b4eab9e-80cd-412a-9158-69758ff5bb5f" />
 
 ###  Domain Login
-**abj01-ws-sv02**
+**abj01-ws-sv02(server 2)**
 <img width="1365" height="767" alt="Screenshot 2026-04-12 051317" src="https://github.com/user-attachments/assets/608d35e8-de97-46fb-b029-0206c5d2faf9" />
 
 **abj01-wc-wk03(Workstation 3)**
@@ -158,12 +158,8 @@ Created different types of Active Directory accounts:
 **abj01-wc-wk05(Workstation 5)**
 <img width="1365" height="767" alt="Screenshot 2026-04-11 174607" src="https://github.com/user-attachments/assets/5d468279-2da6-417e-aad7-d44a7c221f11" />
 
-
-
 ### Servers and workstations Joined to Active Directory domain (beecipher.local)
-<img width="1365" height="767" alt="Screenshot 2026-04-11 175215" src="https://github.com/user-attachments/assets/c6a8095c-4082-41a4-826b-569fbdcb88b7" />
-
-
+<img width="1365" height="767" alt="Screenshot 2026-04-12 074358" src="https://github.com/user-attachments/assets/ecc80f8d-51b2-43fb-9814-c719a2f255c4" />
 
 ##  Disclaimer
 This lab was conducted in a controlled virtual environment for educational purposes only.
