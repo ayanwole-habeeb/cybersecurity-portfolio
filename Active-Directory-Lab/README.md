@@ -102,6 +102,64 @@ To ensure stability and proper communication across the lab, all Windows Servers
 ### DNS Confirmation, using nslookup 
 <img width="1365" height="767" alt="Screenshot 2026-04-08 132425" src="https://github.com/user-attachments/assets/4a49f804-67f5-4280-bab2-7bff473dc1ea" />
 
+## Active Directory User and Domain Integration
+In this phase of the lab, I implemented user account management and integrated all servers and workstations into the domain environment.
+
+### User Account Configuration
+
+Created different types of Active Directory accounts:
+
+- **Enterprise Admin** → For full control across the forest
+- **Domain Admin** →For full control within the domain
+- **Standard Domain Users** → Limited access for daily operations,user will only have access to workstations
+
+### Domain Joining
+- Successfully joined all Windows Servers to the domain
+- Joined Windows client workstations to the domain
+
+### Authentication Testing
+- Logged into domain-joined machines using domain user credentials
+- Verified access levels based on account types
+
+### Outcome
+- Centralized authentication working
+- Role-based access control implemented
+- All systems integrated into Active Directory domain (beecipher.local)
+
+### Screenshots
+### Active Directory Users
+<img width="1365" height="767" alt="Screenshot 2026-04-11 182549" src="https://github.com/user-attachments/assets/9f16331e-985a-464a-b354-bcbd07063504" />
+
+### Domain Controller
+
+<img width="1365" height="767" alt="Screenshot 2026-04-11 175229" src="https://github.com/user-attachments/assets/bbdcc858-1074-4e20-9d22-f8dad00a62e0" />
+
+### Server Domain Joining
+**abj01-ws-sv01(server 1)**
+<img width="1365" height="767" alt="Screenshot 2026-04-10 123450" src="https://github.com/user-attachments/assets/cd9ee017-4020-4fd5-b5db-e5222960c99c" />
+
+**abj01-ws-sv04(server 4)**
+<img width="1365" height="767" alt="Screenshot 2026-04-10 134517" src="https://github.com/user-attachments/assets/b95da775-e17a-47bc-8a4b-a2d149e0c75f" />
+
+### Client Domain Joining
+**abj01-wc-wk02(Workstation 2)**
+<img width="1365" height="767" alt="Screenshot 2026-04-11 152507" src="https://github.com/user-attachments/assets/c3a5c592-ca9e-4eae-982c-08d20a7a9a60" />
+
+**abj01-wc-wk03(Workstation 3)**
+<img width="1365" height="767" alt="Screenshot 2026-04-11 154825" src="https://github.com/user-attachments/assets/5b4eab9e-80cd-412a-9158-69758ff5bb5f" />
+
+###  Domain Login
+**abj01-wc-wk03(Workstation 3)**
+<img width="1361" height="767" alt="Screenshot 2026-04-11 160518" src="https://github.com/user-attachments/assets/516f2961-badb-4ecc-a16f-0d9c6039a7cf" />
+
+**abj01-wc-wk05(Workstation 5)**
+<img width="1365" height="767" alt="Screenshot 2026-04-11 174607" src="https://github.com/user-attachments/assets/5d468279-2da6-417e-aad7-d44a7c221f11" />
+
+
+
+### Servers and workstations Joined to Active Directory domain (beecipher.local)
+<img width="1365" height="767" alt="Screenshot 2026-04-11 175215" src="https://github.com/user-attachments/assets/c6a8095c-4082-41a4-826b-569fbdcb88b7" />
+
 
 
 ##  Disclaimer
